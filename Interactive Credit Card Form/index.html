@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <title>Interactive Credit Card Form</title>
+
+  </head>
+  <body>
+    <main class="main-font flex flex-col h-screen md:flex-row">
+      <div class="h-60 md:hidden bg-cover bg-center" style="background-image: url('/images/bg-main-mobile.png')">
+        <div>
+          <div class="h-36 w-64 relative top-10 left-10 mx-auto bg-no-repeat bg-contain" style="background-image: url('/images/bg-card-back.png')">
+            <p class="relative left-[200px] top-[60px] text-xs text-white tracking-widest">000</p>
+          </div>
+          <div class="h-36 w-64 relative right-6 bottom-4 mx-auto bg-no-repeat bg-contain" style="background-image: url('/images/bg-card-front.png')">
+            <img src="/images/card-logo.svg" alt="" class="h-10 pl-4 pt-4">
+            <p class="relative left-[200px] top-[60px] text-xs text-white tracking-widest">000</p>
+            <p class="relative left-[200px] top-[60px] text-xs text-white tracking-widest">000</p>
+            <p class="relative left-[200px] top-[60px] text-xs text-white tracking-widest">000</p>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="hidden md:w-1/3 md:block md:h-screen bg-cover bg-center" style="background-image: url('/images/bg-main-desktop.png')">
+        
+      </div>
+      <div class="h-2/3 md:w-2/3 md:h-screen">
+
+
+      </div>
+
+    </main>
+
+
+
+  </body>
+</html>
+
+
+
+
+<!-- 0000 0000 0000 0000
+Jane Appleseed
+00/00
+
+000
+
+Cardholder Name
+e.g. Jane Appleseed
+
+Card Number
+e.g. 1234 5678 9123 0000
+
+Exp. Date (MM/YY)
+MM
+YY
+
+CVC
+e.g. 123
+
+Confirm
+
+
+Thank you!
+We've added your card details
+Continue -->
